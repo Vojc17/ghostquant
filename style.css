@@ -2,3 +2,6 @@
 
 /* Same official GhostQuant app icon across site and browser tabs */
 .brand-icon{width:42px;height:42px;object-fit:cover;border-radius:9px;vertical-align:middle;flex-shrink:0}.brand{display:inline-flex;align-items:center;gap:10px}
+
+/* Fixed header icon sizing */
+header .brand img.brand-icon{width:44px!important;height:44px!important;max-width:44px!important;max-height:44px!important;display:block;object-fit:cover;flex:0 0 44px}
